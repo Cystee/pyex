@@ -1,6 +1,14 @@
 a,b=0,1
-c=a+b
-for i in range():
-    b,c=
+'''笨方法
+c=1
+ls=[a,b]
+while c<=100:
+    ls.append(c)
+    a,b=b,a+b
+    c=a+b
 for i in ls:
-    print("{}")
+    print(i,end=' ')
+'''
+while a<=100:
+    print(a,end=',')
+    a,b=b,a+b
